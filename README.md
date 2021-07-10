@@ -6,7 +6,9 @@
 <h4>Html , CSS</h4><hr>
 <h1>MOTIVATION FOR THE PROJECT :</h1>
 <h4>Well to be honest after enrolling in this marathon I am very much motivated to make my first webpage and it has also boosted me to do more like this.<hr>
+<h1>HOW OUR 7 DAYS OF WEB DEVLOPMENT HEPLED YOU IN MAKING THIS PROJECT </h1>
+<h4>This marathon hepled me a lot in understanding firstly the main basics and then some more things because its resources are very helpfull and finally my very first webpage is here!! <hr>
 <h1>HOSTED LINK :</h1>
 <h4>https://arnab-0701.github.io/First_Portfolio/Index.html</h4><hr>
 <h1>NAME & REGISTRATION NO :</h1>
-  <h4>Arnab Sarkar<br>2041019152</h4><hr>
+<h4>Arnab Sarkar<br>2041019152</h4><hr>
