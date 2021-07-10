@@ -1,0 +1,43 @@
+
+    
+
+    
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 30px;
+    font-size: 18px;
+    padding:10px;
+}
+.Box{
+    background-color: lightgrey;
+    padding: 4px 14px 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: whitesmoke;
+}
+input[type="text"],input[type="email"],input[type="date"]{
+
+width: 100%;
+border: 2px solid grey;
+border-radius: 5px;
+}
+.heading{
+    text-align: center;
+}
+input[type="submit"]{
+    color: white;
+    background-color: lime;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 2px ;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: darkgreen;
+}

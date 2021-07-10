@@ -1,0 +1,186 @@
+
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0%;
+        }
+        main{
+            
+          background-image: url(../Asset/pexels-photo-2680270.jpeg);
+          background-size: contain; 
+          background-repeat:repeat-y;
+          color: white;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-style: italic;
+            background-color:whitesmoke;
+            padding-top: 15px;
+            padding-bottom: 1px;
+        }
+        header{
+           background-image: url(../Asset/logo.jpg);
+           background-repeat: no-repeat;
+           background-size: 18%;
+           background-position:left;
+           
+           background-color: black;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 2px 2px 2px black;
+        }
+            nav{
+            background-color:darkslategray;
+            color: white;
+            overflow: hidden;
+            position: sticky;
+            top: 0px;
+            }
+            nav a{
+                float: left;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                padding: 20px;
+               
+            }
+         
+         
+        a:hover{
+            color: red;
+                
+        }
+       .google {
+           float:right;
+           font-size: 15px;
+       }
+        .google:hover{
+           background-color:white;
+           color: black;
+       }
+        section h3{
+            background-color: white;
+            color: black;
+            text-align:start;
+            font-style: oblique;
+            font-size: 25px;
+            
+        }
+        h1:hover{
+        color:rgb(76, 21, 228);
+        }
+       
+        h4{
+            color: black;
+            margin-bottom: 0px;
+            background-color: skyblue;
+            padding:7px;
+        }
+         h3{
+           
+            padding: 20px;
+           margin-left: 0p;
+        }
+        #davweb{
+            text-decoration:none;
+        }
+        #davweb:hover{
+            color: red;
+        }
+        #rviweb{
+            text-decoration:none;
+        }
+        #rviweb:hover{
+            color: red;
+           
+        }
+        #DP{
+            float: right;
+            background-color: blanchedalmond;
+            padding: 5px;
+        }
+        #CKU1{
+            float: left;
+            background-color: blanchedalmond;
+            padding: 6px;
+            margin-right: 5px;
+        }
+        #CKU2{
+            float: right;
+            background-color: blanchedalmond;
+            padding: 6px;
+        }
+        #DAV{
+            float: left;
+            background-color: blanchedalmond;
+            padding: 6px;
+            margin-right: 10px;
+        }
+        #RVI{
+            float: right;
+            background-color: blanchedalmond;
+            padding: 6px;
+        }
+        footer{
+            background-color:black;
+            color: floralwhite;
+            font-size: 20px;
+            text-align: center;
+            padding: 15px;
+        }
+        div,.Paint div,.Utube div{
+            text-align: center;
+           
+        }
+        img,iframe,video{
+           
+           border-radius: 5px;
+           margin: 20px;
+           box-shadow: 10px 10px 10px black;
+            
+       }
+     
+      
+        @media all and (max-width:850px) and (orientation:landscape) {
+            
+            header{
+                background-image: url(../Asset/logo1.jpg);
+                background-repeat: no-repeat;
+                background-size: 30%;
+                background-position:left;
+                
+                background-color: black;
+            text-align: center;
+            padding: 40px;
+            color: ghostwhite;
+          
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 2px 2px 2px black;
+        }
+        main{
+            padding: 50px;
+            padding-right: 15px;
+        }
+        #DP,#CKU1,#CKU2,#DAV,#RVI{
+           width: 250px;
+        }
+        iframe{
+            width: 250px;
+            padding:2px;
+            
+        }
+        .video video {
+           max-width: 270px;
+           margin: 5px;
+           
+        }
+        img{
+            width:250px;
+            
+        }
+        
+    }

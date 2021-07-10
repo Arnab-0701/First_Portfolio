@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+main{
+    background-image: url(../Asset/bg1.jpg);
+    background-size: contain;
+    background-repeat:repeat-y;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    background-color: azure;
+    padding-top: 15px;
+    padding-bottom: 1px;
+  }
+header{
+    background-image: url(../Asset/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position:left;
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+    color: ghostwhite;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px black;
+}
+nav{
+    background-color:darkslategray;
+    color: white;
+    overflow: hidden;
+    position: sticky;
+   top: 0px;
+    }
+    nav a{
+        float: left;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+       
+    }
+a:hover{
+   color: red;    
+}
+.google {
+   float:right;
+   font-size: 15px;
+}
+.google:hover{
+   background-color:white;
+   color: black
+}
+img{
+   
+    border-radius: 5px;
+    margin: 60px;
+    box-shadow: 10px 10px 10px black;
+ 
+}
+
+h1:hover{
+color: rgb(76, 21, 228);
+
+}
+h3{
+    background-color: white;
+            color: black;
+font-size: 40px;
+
+padding: 15;
+}
+footer{
+    
+    background-color:black   ;
+    color: floralwhite;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+   
+}
+@media all and (max-width:850px) and (orientation:landscape) {
+    
+    header{
+        background-image: url(../Asset/logo1.jpg);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position:left;
+        
+        background-color: black;
+    text-align: center;
+    padding: 40px;
+    color: ghostwhite;
+  
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px black;
+}
+main{
+    padding: 50px;
+    padding-right: 15px;
+}
+
+img{
+    width: 170px;
+    height: 300px;
+    
+}
+     
+}
